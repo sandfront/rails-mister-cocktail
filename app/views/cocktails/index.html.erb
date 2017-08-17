@@ -1,0 +1,10 @@
+<%= render 'shared/banner' %>
+
+<h1>Here are all your cocktails</h1>
+<ul>
+  <% @cocktails.each do |c| %>
+    <li><%= link_to "#{c.name}", cocktail_path(c) %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Create a new cocktail", new_cocktail_path %>
