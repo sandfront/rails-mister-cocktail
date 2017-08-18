@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'figaro'
 # For Frontend
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
