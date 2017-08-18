@@ -1,4 +1,4 @@
-<div class="card-head" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+<div class="card-head" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= cocktail.photo.file ? (cl_image_path cocktail.photo, crop: :limit) : "http://lorempixel.com/400/200/nightlife/" %>);">
   <div class="card-category">Popular</div>
   <a class="card-link" href=<%= cocktail_path(cocktail) %> ></a>
 </div>

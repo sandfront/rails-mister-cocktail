@@ -1,4 +1,5 @@
 <h2><%= @cocktail.name %></h2>
+<%= cl_image_tag @cocktail.photo %>
 <h3>Ingredients</h3>
 <ul>
   <% @cocktail.ingredients.each do |i| %>
