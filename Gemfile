@@ -6,6 +6,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'sprockets-rails', github: 'rails/sprockets-rails', branch: 'master'
+gem 'sprockets', github: 'rails/sprockets', branch: 'master'
+gem 'babel-transpiler'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'

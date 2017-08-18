@@ -12,21 +12,6 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap-sprockets
-
-document.addEventListener('DOMContentLoaded', (event) => {
-
-  const button = document.getElementById('main-btn')
-
-  const scroll = () => {
-    document.getElementById('home_1').scrollIntoView();
-  }
-
-
-  button.addEventListener('click', scroll)
-
-
-})
+//= require_tree .
